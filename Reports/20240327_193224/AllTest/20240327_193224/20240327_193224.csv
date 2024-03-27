@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AllTest,Chrome 123.0.0.0,,,27-03-2024 19:32:31,27-03-2024 19:33:02,"30,418s",PASSED
+,,,,,,,
+Test Cases/Sample Testcaes/TC01_Login,Chrome 123.0.0.0,,,27-03-2024 19:32:32,27-03-2024 19:32:45,"12,710s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 123.0.0.0,,,27-03-2024 19:32:32,27-03-2024 19:32:37,"4,932s",PASSED
+"click(findTestObject(""Object Repository/LoginPage/input_Email_email""))",Chrome 123.0.0.0,,,27-03-2024 19:32:37,27-03-2024 19:32:38,"0,436s",PASSED
+"setText(findTestObject(""Object Repository/LoginPage/input_Email_email""), ""thoannv@realtel.vn"")",Chrome 123.0.0.0,,,27-03-2024 19:32:38,27-03-2024 19:32:39,"0,921s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginPage/input_password""), ""JLlTnurRkpFG/mGxAXlomg=="")",Chrome 123.0.0.0,,,27-03-2024 19:32:39,27-03-2024 19:32:39,"0,430s",PASSED
+"click(findTestObject(""Object Repository/LoginPage/btn_DangNhap""))",Chrome 123.0.0.0,,,27-03-2024 19:32:39,27-03-2024 19:32:39,"0,362s",PASSED
+"click(findTestObject(""Object Repository/HomePage/btn_TiepTuc""))",Chrome 123.0.0.0,,,27-03-2024 19:32:39,27-03-2024 19:32:45,"5,207s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 123.0.0.0,,,27-03-2024 19:32:45,27-03-2024 19:32:45,"0,228s",PASSED
+,,,,,,,
+Test Cases/Sample Testcaes/TC02_TaoKenhChat,Chrome 123.0.0.0,,TC02,27-03-2024 19:32:45,27-03-2024 19:33:02,"17,097s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 123.0.0.0,,,27-03-2024 19:32:45,27-03-2024 19:32:48,"2,997s",PASSED
+"callTestCase(findTestCase(""Sample Testcaes/TC01_Login""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,27-03-2024 19:32:48,27-03-2024 19:32:57,"9,066s",PASSED
+"click(findTestObject(""Object Repository/TaoKenhChatPage/btn_MoreAction""))",Chrome 123.0.0.0,,,27-03-2024 19:32:57,27-03-2024 19:32:58,"0,670s",PASSED
+"click(findTestObject(""Object Repository/TaoKenhChatPage/btn_TaoKenhChat""))",Chrome 123.0.0.0,,,27-03-2024 19:32:58,27-03-2024 19:32:58,"0,717s",PASSED
+"sTenKenh = ""new123""",Chrome 123.0.0.0,,,27-03-2024 19:32:58,27-03-2024 19:32:59,"0,008s",PASSED
+"setText(findTestObject(""Object Repository/TaoKenhChatPage/input_TenKenh""), sTenKenh)",Chrome 123.0.0.0,,,27-03-2024 19:32:59,27-03-2024 19:33:00,"1,789s",PASSED
+"click(findTestObject(""Object Repository/TaoKenhChatPage/btn_Luu""))",Chrome 123.0.0.0,,,27-03-2024 19:33:00,27-03-2024 19:33:01,"0,368s",PASSED
+"click(findTestObject(""Object Repository/HomePage/div_itemChatBox"", [""sTenKenh"":sTenKenh]))",Chrome 123.0.0.0,,,27-03-2024 19:33:01,27-03-2024 19:33:02,"1,025s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 123.0.0.0,,,27-03-2024 19:33:02,27-03-2024 19:33:02,"0,222s",PASSED

@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_test_171854, 27032024 - Automation Test Inc/div_Tin nhn trc tip   Tip tc       To nhm c_267598",
+      "brokenLocator": "//div[@id\u003d\u0027_uuid27533_22427_1711541040\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027master-panel\u0027]/div/div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_test_171854, 27032024 - Automation Test Inc/div_Tin nhn trc tip   Tip tc       To nhm c_267598_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_record - Automation Test Inc/btn_MoreAction",
+      "brokenLocator": "//div[@id\u003d\u0027_uuid84632_82994_1711541446\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027master-panel\u0027]/div/div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_record - Automation Test Inc/btn_MoreAction_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_record - Automation Test Inc/btn_TaoKenhChat",
+      "brokenLocator": "//div[@id\u003d\u0027_uuid84632_82994_1711541446\u0027]/div[2]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Nhóm chat giới hạn tối đa 100 người\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_record - Automation Test Inc/btn_TaoKenhChat_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_record - Automation Test Inc/input_TenKenh",
+      "brokenLocator": "//input[@id\u003d\u0027_uuid61581_2707_1711541466\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_record - Automation Test Inc/input_TenKenh_position.png"
+    }
+  ]
+}

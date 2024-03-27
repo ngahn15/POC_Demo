@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AllTest" time="30.418" tests="2" failures="0" errors="0">
+   <testsuite name="AllTest" tests="2" failures="0" errors="0" time="30.418" skipped="0" timestamp="27-03-2024T19:32:31" hostname="Admin - LAPTOP" id="Test Suites/AllTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\2024\\POC Automation testing\\POC_Demo\\Reports\\20240327_193224\\AllTest\\20240327_193224"/>
+         <property name="logFiles" value="D:\\2024\\POC Automation testing\\POC_Demo\\Reports\\20240327_193224\\AllTest\\20240327_193224\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - LAPTOP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="9cabd3f47fb5315833af9f210a00b79f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sample Testcaes/TC01_Login" time="12.71" classname="Test Cases/Sample Testcaes/TC01_Login" status="PASSED">
+         <system-out><![CDATA[27-03-2024T19:32:32 - [TEST_CASE][PASSED] - Test Cases/Sample Testcaes/TC01_Login: Test Cases/Sample Testcaes/TC01_Login
+
+27-03-2024T19:32:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+27-03-2024T19:32:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-03-2024T19:32:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-03-2024T19:32:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-03-2024T19:32:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-03-2024T19:32:34 - [TEST_STEP][PASSED] - navigateToUrl("https://account.basestg.com/a/login?app=message&return=home"): Navigate to 'https://account.basestg.com/a/login?app=message&return=home' successfully
+
+27-03-2024T19:32:37 - [MESSAGE][PASSED] - Navigate to 'https://account.basestg.com/a/login?app=message&return=home' successfully
+
+27-03-2024T19:32:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-03-2024T19:32:37 - [MESSAGE][PASSED] - Current window maximized
+
+27-03-2024T19:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/input_Email_email")): Object: 'Object Repository/LoginPage/input_Email_email' is clicked on
+
+27-03-2024T19:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input_Email_email' is clicked on
+
+27-03-2024T19:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/input_Email_email"), "thoannv@realtel.vn"): Text 'thoannv@realtel.vn' is set on object 'Object Repository/LoginPage/input_Email_email'
+
+27-03-2024T19:32:39 - [MESSAGE][PASSED] - Text 'thoannv@realtel.vn' is set on object 'Object Repository/LoginPage/input_Email_email'
+
+27-03-2024T19:32:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/input_password"), "JLlTnurRkpFG/mGxAXlomg=="): Text ****** has been set on object 'Object Repository/LoginPage/input_password'
+
+27-03-2024T19:32:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_password'
+
+27-03-2024T19:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/btn_DangNhap")): Object: 'Object Repository/LoginPage/btn_DangNhap' is clicked on
+
+27-03-2024T19:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/btn_DangNhap' is clicked on
+
+27-03-2024T19:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/btn_TiepTuc")): Object: 'Object Repository/HomePage/btn_TiepTuc' is clicked on
+
+27-03-2024T19:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/btn_TiepTuc' is clicked on
+
+27-03-2024T19:32:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+27-03-2024T19:32:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-03-2024T19:32:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sample Testcaes/TC02_TaoKenhChat" time="17.097" classname="Test Cases/Sample Testcaes/TC02_TaoKenhChat" status="PASSED">
+         <system-out><![CDATA[27-03-2024T19:32:45 - [TEST_CASE][PASSED] - Test Cases/Sample Testcaes/TC02_TaoKenhChat: Test Cases/Sample Testcaes/TC02_TaoKenhChat
+
+27-03-2024T19:32:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Current window maximized
+
+27-03-2024T19:32:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-03-2024T19:32:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-03-2024T19:32:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-03-2024T19:32:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-03-2024T19:32:46 - [TEST_STEP][PASSED] - navigateToUrl("https://account.basestg.com/a/login?app=message&return=home"): Navigate to 'https://account.basestg.com/a/login?app=message&return=home' successfully
+
+27-03-2024T19:32:48 - [MESSAGE][PASSED] - Navigate to 'https://account.basestg.com/a/login?app=message&return=home' successfully
+
+27-03-2024T19:32:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-03-2024T19:32:48 - [MESSAGE][PASSED] - Current window maximized
+
+27-03-2024T19:32:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Sample Testcaes/TC01_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Sample Testcaes/TC01_Login' successfully
+
+27-03-2024T19:32:48 - [TEST_CASE][PASSED] - Test Cases/Sample Testcaes/TC01_Login: Test Cases/Sample Testcaes/TC01_Login
+
+27-03-2024T19:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/input_Email_email")): Object: 'Object Repository/LoginPage/input_Email_email' is clicked on
+
+27-03-2024T19:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input_Email_email' is clicked on
+
+27-03-2024T19:32:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/input_Email_email"), "thoannv@realtel.vn"): Text 'thoannv@realtel.vn' is set on object 'Object Repository/LoginPage/input_Email_email'
+
+27-03-2024T19:32:49 - [MESSAGE][PASSED] - Text 'thoannv@realtel.vn' is set on object 'Object Repository/LoginPage/input_Email_email'
+
+27-03-2024T19:32:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/input_password"), "JLlTnurRkpFG/mGxAXlomg=="): Text ****** has been set on object 'Object Repository/LoginPage/input_password'
+
+27-03-2024T19:32:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/input_password'
+
+27-03-2024T19:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/btn_DangNhap")): Object: 'Object Repository/LoginPage/btn_DangNhap' is clicked on
+
+27-03-2024T19:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/btn_DangNhap' is clicked on
+
+27-03-2024T19:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/btn_TiepTuc")): Object: 'Object Repository/HomePage/btn_TiepTuc' is clicked on
+
+27-03-2024T19:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/btn_TiepTuc' is clicked on
+
+27-03-2024T19:32:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sample Testcaes/TC01_Login' successfully
+
+27-03-2024T19:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TaoKenhChatPage/btn_MoreAction")): Object: 'Object Repository/TaoKenhChatPage/btn_MoreAction' is clicked on
+
+27-03-2024T19:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TaoKenhChatPage/btn_MoreAction' is clicked on
+
+27-03-2024T19:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TaoKenhChatPage/btn_TaoKenhChat")): Object: 'Object Repository/TaoKenhChatPage/btn_TaoKenhChat' is clicked on
+
+27-03-2024T19:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TaoKenhChatPage/btn_TaoKenhChat' is clicked on
+
+27-03-2024T19:32:58 - [TEST_STEP][PASSED] - sTenKenh = "new123": null
+
+27-03-2024T19:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TaoKenhChatPage/input_TenKenh"), sTenKenh): Text 'new123' is set on object 'Object Repository/TaoKenhChatPage/input_TenKenh'
+
+27-03-2024T19:33:00 - [MESSAGE][PASSED] - Text 'new123' is set on object 'Object Repository/TaoKenhChatPage/input_TenKenh'
+
+27-03-2024T19:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TaoKenhChatPage/btn_Luu")): Object: 'Object Repository/TaoKenhChatPage/btn_Luu' is clicked on
+
+27-03-2024T19:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TaoKenhChatPage/btn_Luu' is clicked on
+
+27-03-2024T19:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/div_itemChatBox", ["sTenKenh":sTenKenh])): Object: 'Object Repository/HomePage/div_itemChatBox' is clicked on
+
+27-03-2024T19:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/div_itemChatBox' is clicked on
+
+27-03-2024T19:33:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+27-03-2024T19:33:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-03-2024T19:33:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-03-2024T19:32:31 - [TEST_SUITE][PASSED] - AllTest: Test Cases/Sample Testcaes/TC02_TaoKenhChat]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
